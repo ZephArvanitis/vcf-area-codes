@@ -8,7 +8,7 @@ Get area code counts from a .vcf contacts file
     - `source venv/bin/activate`
     - `pip install -r requirements.txt`
 3. Run the script, passing your vcf file as an argument:
-  - `python areacodes.py mycontacts.vcf`
+    - `python areacodes.py mycontacts.vcf`
 
 
 You can use the `-v` option if you want to see more debugging details, and if you want the output to go somewhere other than `area_code_counts.csv`, you can supply an output filename using `-o`. See `python areacodes.py --help` for full help text.
